@@ -2,9 +2,9 @@
 # Ryan M. Bott
 #An Excel function takes an Excel date and yields that date in a three letter abbreviation format. (e.g. "Mon. Jan. 1st") This format is handy for postcard invitations, where space is limited and the first thing you think when you see the date is "What day of the week is that?" or "Is that a weekend?". As of the creation of this repository, MS Excel does not have a built in date format like this.
 
-# To refer to a cell with a date in it, replace the references to "TODAY()" with a reference to that cell.
+#To refer to a cell with a date in it, replace the references to "TODAY()" with a reference to that cell.
 
-# This function is currently not compatible with LibreOffice because of a restriction on the number of parameters allowed in the CHOOSE() function. If you come up with a workaround for that restriction, let me know.
+#This function is currently not compatible with LibreOffice because of a restriction on the number of parameters allowed in the CHOOSE() function. If you come up with a workaround for that restriction, let me know.
 
 
 =CONCATENATE(
